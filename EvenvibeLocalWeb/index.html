@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EvenvibeLocalWeb</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo-png">
+        <img
+          src="images/ORGANIZER LOGO.png"
+          width="62.5px"
+          height="62.5px"
+          alt="Organizer Logo"
+        />
+      </a>
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#About">Know Us</a>
+        <a href="#menu">Service</a>
+        <a href="#contact">Get in touch</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="Instagram"><i data-feather="instagram"></i></a>
+        <a href="#" id="Linktr.ee"><i data-feather="link"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>EVEN<span>IBE</span>.<span>LOCAL</span></h1>
+        <p>Your Event, Our Vibe</p>
+        <a href="#About" class="cta">Know Us</a>
+      </main>
+    </section>
+
+    <!-- Hero Section end -->
+
+    <!-- About Section -->
+    <section id="About" class="About">
+      <h2><span>Know</span> Us</h2>
+
+      <div class="row">
+        <div class="About-img">
+          <img src="images/about-img.jpg" alt="about Image" />
+        </div>
+
+        <div class="About-col">
+          <p>
+            At EvenVibe.Local, we offer comprehensive event planning services
+            that cover every aspect of the event lifecycle. From initial
+            concept development and budgeting to vendor coordination and on-site
+            management, we handle it all. Our services include venue selection,
+            theme design, entertainment booking, catering arrangements, and
+            logistical support. We pride ourselves on our ability to manage
+            events of all sizes and complexities, ensuring a seamless and stress-free experience for our clients.
+          </p>
+            <p>
+              Our mission is to deliver exceptional event experiences that exceed
+              our clients' expectations. We are committed to creativity,
+              innovation, and personalized service, striving to make every event
+              memorable and impactful. By fostering strong relationships with our
+              clients and partners, we aim to become a trusted leader in the event
+              planning industry, known for our professionalism, reliability, and
+              passion for excellence.
+            </p>
+        </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start-->
+     <section id="menu" class="menu">
+      <h2><span>Our</span> Service</h2>
+      <p>We provide a range of services to cater to your event needs:</p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="images/Menu/Casual-img.jpg" alt="Casual Event" class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Casual Event Planning -</h3>
+          <p class="menu-card-price">Starting at $500</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/Menu/Corporate-img.jpg" alt="Corporate Event" class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Corporate Event Planning -</h3>
+          <p class="menu-card-price">Starting at $500</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/Menu/Ads-img.jpg" alt="Ads Event" class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Ads Service -</h3>
+          <p class="menu-card-price">Starting at $500</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/Menu/Sponsor-img.jpg" alt="Sponsor Event" class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Sponsorship Event -</h3>
+          <p class="menu-card-price">Starting at $500</p>
+        </div> 
+      </div>
+    <!-- Menu Section end  -->
+
+ <!-- Contact Section start -->
+<section id="contact" class="contact">
+    <h2><span>Get in</span> touch</h2>
+    <!-- Paragraf deskripsi tambahan agar section terlihat rapi -->
+    <p>We're ready to help you plan your event. Please contact us using the form below.</p>
+    
+    <div class="row">
+        <!-- Peta (Map): Berada di KIRI karena diletakkan pertama. -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126602.15792875625!2d109.0867606568567!3d-7.430081240645638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655c3136423d1d%3A0x4027a76e352e4a0!2sPurwokerto%2C%20Banyumas%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1759223622982!5m2!1sen!2sid" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade" 
+            class="map"
+            width="100%"> <!-- Tambahan width: 100% eksplisit untuk memastikan responsif -->
+        </iframe>
+
+        <!-- Formulir Kontak (Form): Berada di KANAN karena diletakkan setelah Peta. -->
+        <form action="" class="form">
+            <!-- INPUT GROUP (USER) -->
+            <div class="input-group">
+                <i data-feather="user"></i>
+                <input type="text" placeholder="Nama Anda" required />
+            </div>
+
+            <!-- INPUT GROUP (EMAIL) -->
+            <div class="input-group">
+                <i data-feather="mail"></i>
+                <input type="email" placeholder="Email Anda" required />
+            </div>
+
+            <!-- INPUT GROUP (PHONE) -->
+            <div class="input-group">
+                <i data-feather="phone"></i>
+                <input type="text" placeholder="Nomor Handphone" required />
+            </div>
+
+            <!-- BUTTON KIRIM PESAN -->
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </div>
+</section>
+<!-- Contact Section end -->
+
+
+<!-- FOOTER SECTION START -->
+<footer>
+  <p>&copy; 2025 EVENVIBE.LOCAL | Your Event, Our Vibe</p>
+</footer>
+<!-- FOOTER SECTION END -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
+  </body>
+</html>
